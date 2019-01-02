@@ -58,7 +58,7 @@ ArrayList<Blob> blobs;
 int numBlobs = 20;
 int radius = 500;
 int threshold = 1400000;
-int screenWidth = 4000;
+int screenWidth = 960;
 int screenHeight = 540;
 int boxWidth = screenHeight;
 int boxHeight = screenHeight;
@@ -70,7 +70,7 @@ int stage = 0;
 
 void setup()
 {
-  size( 4000, 540 );
+  size(960, 540);
   pixelDensity(2);
   blobs = new ArrayList<Blob>();
   for ( int i = 0; i < numBlobs; i++ )
